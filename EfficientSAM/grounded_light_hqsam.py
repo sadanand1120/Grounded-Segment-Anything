@@ -7,7 +7,7 @@ import torchvision
 
 from groundingdino.util.inference import Model
 from segment_anything import SamPredictor
-from LightHQSAM.setup_light_hqsam import setup_model
+from third_party.lightHQSAM.setup_light_hqsam import setup_model
 
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 

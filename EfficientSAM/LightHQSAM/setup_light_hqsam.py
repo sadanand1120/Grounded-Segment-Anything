@@ -1,4 +1,4 @@
-from LightHQSAM.tiny_vit_sam import TinyViT
+from third_party.lightHQSAM.tiny_vit_sam import TinyViT
 from segment_anything.modeling import MaskDecoderHQ, PromptEncoder, Sam, TwoWayTransformer
 
 def setup_model():
